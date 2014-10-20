@@ -22,9 +22,16 @@ drawpad = Canvas(root, width=800,height=600, background='white')
 drawpad.grid(row=0, column=1)
 # House outline and roof
 sweg = drawpad.create_rectangle(280,230,520,430)
-yolo = drawpad.create_line(280,230,390,110)
-ni = drawpad.create_line(520,230,390,110)
+yolo = drawpad.create_line(280,230,400,110)
+ni = drawpad.create_line(520,230,400,110)
 # Square Windows and a door
+swua = drawpad.create_rectangle(320,270,350,300)
+swug = drawpad.create_rectangle(440,270,470,300)
+swag = drawpad.create_rectangle(410,430,380,380)
+swbg = drawpad.create_rectangle(320,380,350,410)
+swcg = drawpad.create_rectangle(440,380,470,410)
+# 
+
 
 
 root.mainloop()
